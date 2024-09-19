@@ -1,0 +1,100 @@
+/* Dashboard.css */
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    background-color: #343a40;
+    color: white;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .sidebar-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    background-color: #495057;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .menu li:hover {
+    background-color: #adb5bd;
+  }
+  
+  .dashboard-card {
+    border: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-card h6 {
+    font-size: 16px;
+    color: #6c757d;
+  }
+  
+  .dashboard-card h3 {
+    font-size: 30px;
+    color: #343a40;
+    font-weight: bold;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card h5 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    color: #6c757d;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  /* Ensure the chart and cards are responsive and take up space */
+  .h-100 {
+    height: 100%;
+  }
+  
+  .flex-grow-1 {
+    flex-grow: 1;
+  }
+  

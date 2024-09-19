@@ -1,0 +1,113 @@
+/* Sidebar.css */
+
+/* Sidebar container styling */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #333; /* Dark background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+}
+
+/* Logo container */
+.logo-container {
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Button container styling */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Styling for each button in the sidebar */
+.dashboard-button, .home-button {
+    background-color: #555; /* Grey background */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+.dashboard-button:hover, .home-button:hover {
+    background-color: #777; /* Lighter grey on hover */
+}
+
+/* Active or focused button styling */
+.dashboard-button:focus, .home-button:focus {
+    outline: none;
+    background-color: #999; /* Even lighter grey when focused */
+}
+
+/* Button icons styling */
+.dashboard-button i, .home-button i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Styling for Home button */
+.home-button {
+    margin-top: auto; /* Push it to the bottom */
+    background-color: #007bff; /* Blue background for Home */
+}
+
+.home-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0e0e0; /* Light grey background for the profile section */
+    border-radius: 10px;
+    border: 1px solid #d1d1d1; /* Light grey border */
+}
+
+.profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff; /* Blue border around the picture */
+    margin-right: 15px;
+    background-color: #fff; /* White background behind the image */
+}
+
+.profile-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: #4a4a4a; /* Dark grey text color */
+}
+
+.profile-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #3b3b3b; /* Dark grey for the name */
+}
+
+.profile-email {
+    font-size: 0.875rem;
+    color: #6c757d; /* Light grey for the email */
+}

@@ -1,0 +1,54 @@
+.employee-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.employee-form {
+  margin-bottom: 20px;
+}
+
+.employee-form label {
+  margin-right: 10px;
+}
+
+.employee-form input {
+  margin-right: 10px;
+}
+
+.employee-profile {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.profile-item {
+  margin-bottom: 10px;
+}
+
+.hours-form {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.hours-form label {
+  margin-right: 10px;
+}
+
+.hours-form input {
+  margin-right: 10px;
+}
+
+.hours-form button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.hours-form button:hover {
+  background-color: #0056b3;
+}
